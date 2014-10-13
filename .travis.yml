@@ -18,7 +18,9 @@ install:
   - "printf '[defaults]\nroles_path = ../' > ansible.cfg"
 
   # Install required dependencies.
-  - ansible-galaxy install geerlingguy.java
+  #- ansible-galaxy install geerlingguy.java
+  - mkdir -p tests/roles/java
+  - git clone https://github.com/fooeybartoni/ansible-role-java tests/roles/java
 
 script:
   # Check the role/playbook's syntax.

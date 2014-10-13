@@ -11,8 +11,3 @@ local/
 
 #Mac
 .DS_Store
-
-# Role Repos from Daniel Groves forked Repos
-roles/ansible-role-java/
-roles/ansible-role-tomcat6
-roles/ansible-role-solr
