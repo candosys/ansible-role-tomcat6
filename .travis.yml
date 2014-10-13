@@ -18,7 +18,8 @@ install:
 
   # Add ansible.cfg to pick up roles path.
   - "printf '[defaults]\nroles_path = ../' > ansible.cfg"
-
+  - cat ansible.cfg
+  
   # Install required dependencies.
   #- ansible-galaxy install geerlingguy.java
   - pwd
@@ -26,7 +27,7 @@ install:
   - git clone https://github.com/fooeybartoni/ansible-role-java ../ansible-role-java
   - cd ..
   - tree
-  - cd ansible-role-java
+  - cd ansible-role-tomcat6
 
 script:
   # Check the role/playbook's syntax.
