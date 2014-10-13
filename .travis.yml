@@ -23,7 +23,7 @@ install:
   #- ansible-galaxy install geerlingguy.java
   - pwd
   - ls -ahl
-  - git clone https://github.com/fooeybartoni/ansible-role-java ../
+  - git clone https://github.com/fooeybartoni/ansible-role-java ../ansible-role-java
   - cd ..
   - tree
   - cd ansible-role-java
