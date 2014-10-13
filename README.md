@@ -8,6 +8,10 @@ An Ansible Role that installs Tomcat 6 on RedHat/CentOS 6.x and Debian/Ubuntu Li
 
 None.
 
+## Forked from DGroves
+
+Thanks Daniel.
+
 ## Role Variables
 
 Available variables are listed below, along with default values (see `vars/main.yml`):
